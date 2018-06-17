@@ -5,4 +5,3 @@ applications:
   host: hello-spring-cloud-BLUE
   path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack
-  instances: 1
