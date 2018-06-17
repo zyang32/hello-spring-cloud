@@ -18,7 +18,7 @@ pipeline{
         
             stage('CodeRepo'){
                 steps{                        
-                    git branch: 'release-green', credentialsId: 'Github_ID', url: 'https://github.com/zyang32/hello-spring-cloud.git'                           
+                    git branch: 'release-blue', credentialsId: 'Github_ID', url: 'https://github.com/zyang32/hello-spring-cloud.git'                           
                 }
             }
 
