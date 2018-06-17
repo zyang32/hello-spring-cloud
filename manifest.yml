@@ -1,7 +1,7 @@
 ---
 applications:
-- name: hello-spring-cloud-BLUE
+- name: hello-spring-cloud-GREEN
   instances: 1
-  host: hello-spring-cloud-BLUE
+  host: hello-spring-cloud-GREEN
   path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack
