@@ -51,11 +51,11 @@ pipeline{
 
         post{
             success {
-                echo "SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})"
+                echo "SUCCESSFUL:"
             }
                                                 
             failure {
-                echo "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]' (${env.BUILD_URL})"
+                echo "FAILED:"
             }
         }
 }
