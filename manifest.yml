@@ -2,7 +2,7 @@
 applications:
 - name: hello-spring-cloud-BLUE
   instances: 1
-  host: hello-spring-cloud-${random-word}
+  host: hello-spring-cloud-BLUE
   path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack
   instances: 1
