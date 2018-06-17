@@ -20,21 +20,21 @@
         </div>
         <div th:if="${instanceInfo}">
     		<br/>
-    		<h2>Cloud Services</h2>
-    		<table class="table table-striped">
-    			<thead>
-    				<tr>
-    					<th>Service Connector Type</th>
-    					<th>Connection address</th>
-    				</tr>
-    			</thead>
-    			<tbody>
-    				<tr th:each="service : ${services}">
-    					<td><strong th:text="${service.key.name}"></strong></td>
-    		    			<td th:text="${service.value}" />
-    		    		</tr>
-    	    		</tbody>
-    	    </table>
+#    		<h2>Cloud Services</h2>
+#    		<table class="table table-striped">
+#    			<thead>
+#    				<tr>
+#    					<th>Service Connector Type</th>
+#    					<th>Connection address</th>
+#    				</tr>
+#    			</thead>
+#    			<tbody>
+#    				<tr th:each="service : ${services}">
+#    					<td><strong th:text="${service.key.name}"></strong></td>
+#    		    			<td th:text="${service.value}" />
+#    		    		</tr>
+#    	    		</tbody>
+#    	    </table>
 
     	    <h2>Application Instance Info</h2>
     	    <div class="row">
