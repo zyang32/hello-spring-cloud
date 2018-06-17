@@ -1,6 +1,6 @@
 ---
 applications:
-- name: hello-spring-cloud
+- name: hello-spring-cloud-GREEN
   instances: 1
-  host: hello-spring-cloud-${random-word}
+  host: hello-spring-cloud-GREEN
   path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
