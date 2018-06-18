@@ -34,7 +34,7 @@ pipeline{
                 }   
             }
 
-            stage('deploy "Blue" via PCF'){
+            stage('deploy "Green" via PCF'){
                 steps {
                     pushToCloudFoundry(
                         target: 'api.run.pivotal.io',
