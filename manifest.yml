@@ -1,7 +1,7 @@
 ---
 applications:
 - name: hello-spring-cloud-BLUE
-  memory: 512M
+  memory: 1024M
   instances: 2
   host: hello-spring-cloud-BLUE
   path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
